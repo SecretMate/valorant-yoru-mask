@@ -1,0 +1,42 @@
+body {
+    background: url("OP-Yoru.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    color: red;
+    font-family: 'VALORANT', sans-serif;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    color: gold;
+    font-family: 'VALORANT', sans-serif;
+    margin-left: 10px;
+}
+
+canvas {
+    border:1px solid black;
+}
+
+#snap {
+    margin-left: 10px;
+    font-family: 'VALORANT', sans-serif;
+    background-color: red;
+    color: gold;
+    border-color: gold;
+    border-width: 2px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
